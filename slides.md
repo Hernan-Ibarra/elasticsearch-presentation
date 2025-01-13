@@ -16,12 +16,13 @@ style: |
 # What is Elasticsearch
 
 - It is a horizontally distrubuted NoSQL (non-relational) database/ search engine.
-- To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP request - GET, POST, PUT, DELETE etc to make queries.
+- To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP VERBS - GET, POST, PUT, DELETE etc to make queries.
 - Designed for very fast searching and analytics.
-
 
 ---
 # What is OpenSearch
+
+- A fork of ElasticSearch
 
 ---
 
@@ -29,15 +30,38 @@ style: |
 
 Hernan and I should work something out here.
 
+---
+
+# Reverse-Indexing
+
+
+--- 
+
+# Shards
+
+--- 
+
+# Nodes
+
+---
+
+# documents
+
+
 
 ---
 # Cap Theorem Details
+
+- There is a lot of discussion over where Elasticsearch fits in the CAP Theorem. The general feeling is that it fits into AP with eventual consistency.
+
+- Some Argument for why this is the case
+
+- People generally seem conflicted online.
 --- 
 
 # Licensing 
 
-- It was open source until around 2021.
-- It is now no longer open source (some details to follow).
+![licensing](licensing.png)
 
 ---
 
