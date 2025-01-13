@@ -22,30 +22,37 @@ style: |
 ---
 # What is OpenSearch
 
-- A fork of ElasticSearch
-
----
-
-# How Does it work
-
-Hernan and I should work something out here.
+- A fork of ElasticSearch.
 
 ---
 
 # Reverse-Indexing
 
-
---- 
-
-# Shards
-
---- 
-
-# Nodes
+Hernan and I should work something out here.
 
 ---
 
-# documents
+# The Structure of Elasticsearch
+
+In Elasticsearch data is organised in the following structure: 
+
+- First we have indices which are analogous to tables in a relational database
+
+- Each of these are comprised of shards which are parts of an index (more on the next slide)
+
+- Then we have documents which are individual pieces of JSON.
+
+---
+
+# Shards & Nodes
+
+- So how does this help us?
+
+- We can then split the index index shards and put them on other Elasticsearch instances on other machines 
+
+--- 
+# Structure
+
 
 
 
