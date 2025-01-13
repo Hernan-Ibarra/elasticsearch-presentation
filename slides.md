@@ -11,7 +11,7 @@ style: |
 
 # Elasticsearch
 
----
+Scott Stirling & Hernán Ibarra
 
 # What is Elasticsearch
 
@@ -19,27 +19,23 @@ style: |
 - To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP request - GET, POST, PUT, DELETE etc to make queries.
 - Designed for very fast searching and analytics.
 
-
----
 # What is OpenSearch
-
----
 
 # How Does it work
 
-Hernan and I should work something out here.
+- Relational database
+- Inverse index (because querying faster)
+- Shards (to horizontally scale faster)
+- Nodes (More computating)
+- Cluster
+- Indexes (templates for different types of data, address within the cluster)
 
-
----
 # Cap Theorem Details
---- 
 
-# Licensing 
+# Licensing
 
 - It was open source until around 2021.
 - It is now no longer open source (some details to follow).
-
----
 
 # Who uses it and why?
 
