@@ -46,14 +46,17 @@ In Elasticsearch data is organised in the following structure:
 
 # Shards & Nodes
 
-- So how does this help us?
+So how does this help us?
 
-- We can then split the index index shards and put them on other Elasticsearch instances on other machines 
+- We can then split the index index shards and put them on other Elasticsearch instances on nodes 
+other machines/Elasticsearch instances.
+
+- Meaning we can search an index in parallel.
 
 --- 
 # Structure
 
-
+![Excalidraw-of-structure](structure.png)
 
 
 ---
