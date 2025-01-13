@@ -20,11 +20,6 @@ style: |
 - Designed for very fast searching and analytics.
 
 ---
-# What is OpenSearch
-
-- A fork of ElasticSearch
-
----
 
 # How Does it work
 
@@ -62,6 +57,12 @@ Hernan and I should work something out here.
 # Licensing 
 
 ![licensing](licensing.png)
+
+---
+
+# What is OpenSearch
+
+- A fork of ElasticSearch
 
 ---
 
