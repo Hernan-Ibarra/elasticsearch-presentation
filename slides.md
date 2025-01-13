@@ -21,26 +21,33 @@ style: |
 
 ---
 
-# How Does it work
+# Reverse-Indexing
 
 Hernan and I should work something out here.
 
 ---
 
-# Reverse-Indexing
+# The Structure of Elasticsearch
 
+In Elasticsearch data is organised in the following structure: 
 
---- 
+- First we have indices which are analogous to tables in a relational database
 
-# Shards
+- Each of these are comprised of shards which are parts of an index (more on the next slide)
 
---- 
-
-# Nodes
+- Then we have documents which are individual pieces of JSON.
 
 ---
 
-# documents
+# Shards & Nodes
+
+- So how does this help us?
+
+- We can then split the index index shards and put them on other Elasticsearch instances on other machines 
+
+--- 
+# Structure
+
 
 
 
