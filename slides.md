@@ -31,9 +31,9 @@ Hernan and I should work something out here.
 
 In Elasticsearch data is organised in the following structure: 
 
-- First we have indices which are analogous to tables in a relational database
+- First we have indices which are analogous to tables in a relational database.
 
-- Each of these are comprised of shards which are parts of an index (more on the next slide)
+- Each of these are comprised of shards which are parts of an index (more on the next slide).
 
 - Then we have documents which are individual pieces of JSON.
 
@@ -59,7 +59,7 @@ other machines/Elasticsearch instances.
 
 - There is a lot of discussion over where Elasticsearch fits in the CAP Theorem. The general feeling is that it fits into AP with eventual consistency.
 
-- Some Argument for why this is the case
+- Some Argument for why this is the case!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 - People generally seem conflicted online.
 --- 
@@ -72,7 +72,7 @@ other machines/Elasticsearch instances.
 
 # What is OpenSearch
 
-- A fork of ElasticSearch
+- A fork of ElasticSearch created in 2021.
 
 ---
 
