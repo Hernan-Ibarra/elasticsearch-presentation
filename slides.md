@@ -19,11 +19,16 @@ style: |
 - To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP request - GET, POST, PUT, DELETE etc to make queries.
 - Designed for very fast searching and analytics.
 
+
+---
+# What is OpenSearch
+
 ---
 
 # How Does it work
 
 Hernan and I should work something out here.
+
 
 ---
 # Cap Theorem Details
