@@ -13,11 +13,13 @@ style: |
 
 Scott Stirling & Hernán Ibarra
 
+---
+
 # What is Elasticsearch
 
 - It is a horizontally distributed NoSQL (non-relational) database/ search engine.
 - To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP VERBS - GET, POST, PUT, DELETE, etc. to make queries.
-- Designed for very fast searching and analytics.
+- Used in text-search business analytics geo-spatial analysis.
 
 ---
 
@@ -29,6 +31,7 @@ Scott Stirling & Hernán Ibarra
 - Nodes (to use different machines)
 - Cluster
 - Indexes (templates/namespaces for different types of data, address within the cluster)
+- replicas (for redundancy)
 
 ---
 
@@ -48,10 +51,9 @@ In Elasticsearch data is organised in the following structure:
 
 So how does this help us?
 
-- We can then split the index shards and put them on other Elasticsearch instances on nodes
-  other machines/Elasticsearch instances.
+- We can then split the index shards and put them on nodes.
 
-- Meaning we can search an index in parallel.
+- Meaning we can search an indices in parallel.
 
 ---
 
@@ -67,13 +69,11 @@ So how does this help us?
 
 ---
 
-# Cap Theorem Details
+# The Cap Theorem 
 
 - There is a lot of discussion over where Elasticsearch fits in the CAP Theorem. The general feeling is that it fits into AP with eventual consistency.
 
-- Some Argument for why this is the case!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-- People generally seem conflicted online.
 
 ---
 
@@ -94,6 +94,8 @@ So how does this help us?
 # What is OpenSearch
 
 - A fork of ElasticSearch created in 2021.
+
+---
 
 # Who uses it and why?
 
