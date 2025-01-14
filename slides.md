@@ -17,11 +17,17 @@ Scott Stirling & Hernán Ibarra
 
 # What is Elasticsearch
 
+
 - It is a horizontally distributed NoSQL (non-relational) database/ search engine.
+
+- Elasticsearch was created by Shay Bannon and was released in Febuary 2010.
+
 - To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP VERBS - GET, POST, PUT, DELETE, etc. to make queries.
+
 - Used in text-search business analytics geo-spatial analysis.
 
 ---
+
 
 # Overview
 
@@ -101,6 +107,7 @@ So how does this help us?
 
 - Uber uses it for it searching and storing geospatial data.
 - Netflix uses ElasticSearch for its recommendation system.
+
 
 
 
