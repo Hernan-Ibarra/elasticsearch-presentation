@@ -24,7 +24,7 @@ Scott Stirling & Hernán Ibarra
 
 - To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP VERBS - GET, POST, PUT, DELETE, etc. to make queries.
 
-- Used in text-search business analytics geo-spatial analysis.
+- Used in text-search, business analytics and geo-spatial analysis.
 
 ---
 
@@ -105,8 +105,14 @@ So how does this help us?
 
 # Who uses it and why?
 
-- Uber uses it for it searching and storing geospatial data.
-- Netflix uses ElasticSearch for its recommendation system.
+- Uber uses it for it searching and storing geospatial data (2017).
+- Netflix uses ElasticSearch for its recommendation system (2021).
+
+--- 
+
+# Thanks for Listening
+
+Any Questions?
 
 
 
