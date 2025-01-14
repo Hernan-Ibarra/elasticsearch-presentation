@@ -57,7 +57,13 @@ So how does this help us?
 
 # Structure
 
-![Excalidraw-of-structure](structure.png)
+<style>img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+![w:700 center](structure.png)
 
 ---
 
@@ -73,7 +79,15 @@ So how does this help us?
 
 # Licensing
 
-![licensing](licensing.png)
+<style>img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+![w:800 center](licensing.png)
+
+
 
 ---
 
@@ -85,3 +99,6 @@ So how does this help us?
 
 - Uber uses it for it searching and storing geospatial data.
 - Netflix uses ElasticSearch for its recommendation system.
+
+
+
