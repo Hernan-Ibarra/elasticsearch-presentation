@@ -22,7 +22,7 @@ Scott Stirling & Hernán Ibarra
 
 - Elasticsearch was created by Shay Bannon and was released in Febuary 2010.
 
-- To make search and update the database elastic search (Behaves like/uses a RESTful API) using HTTP VERBS - GET, POST, PUT, DELETE, etc. to make queries.
+- To make search and update the database elastic search uses a RESTful API using HTTP VERBS - GET, POST, PUT, DELETE, etc. to make queries.
 
 - Used in text-search, business analytics and geo-spatial analysis.
 
@@ -75,9 +75,13 @@ So how does this help us?
 
 ---
 
-# The Cap Theorem 
+# The CAP Theorem 
 
-- There is a lot of discussion over where Elasticsearch fits in the CAP Theorem. The general feeling is that it fits into AP with eventual consistency.
+- Back in 2010, Shay Bannon said that Elasticsearch gives up on partition tolerance.
+
+- We found an Elastic team member in 2019, saying that the CAP theorem technically doesn't apply and so there are times where it behaves like CP and others where it behaves like AP.
+
+
 
 
 
