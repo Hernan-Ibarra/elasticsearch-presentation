@@ -22,7 +22,7 @@ Scott Stirling & Hernán Ibarra
 
 - Elasticsearch was created by Shay Bannon and was released in Febuary 2010.
 
-- To make search and update the database elastic search uses a RESTful API using HTTP VERBS - GET, POST, PUT, DELETE, etc. to make queries.
+- To make search and update the database elastic search uses a RESTful API. To query we use HTTP VERBS - GET, POST, PUT, DELETE, etc.
 
 - Used in text-search, business analytics and geo-spatial analysis.
 
@@ -59,7 +59,7 @@ So how does this help us?
 
 - We can then split the index shards and put them on nodes.
 
-- Meaning we can search an indices in parallel.
+- Meaning we can search indices in parallel.
 
 ---
 
